@@ -9,7 +9,8 @@
 - [ ] Copy fields
 
 ## Vendor
-- [ ] make sure elm.json has been committed
+TODO: is this actually a separate command? How do you add new vendored items?
+- [x] make sure elm.json has been committed
 - [ ] Explain and ask
 - [ ] Read elm-vendor.json vendored
 - [ ] Read each vendored app's json

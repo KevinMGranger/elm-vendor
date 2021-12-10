@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.51"
+anyhow = {version = "1.0.51", features=["backtrace"]}
 clap = "2.34.0"
 dialoguer = "0.9.0"
 git2 = "0.13.25"
@@ -17,3 +17,11 @@ structopt = "0.3.25"
 tap = "1.0.1"
 thiserror = "1.0.30"
 toml = "0.5.8"
+fehler = {rev = "cc7b192f935bd27c30f1bc4ee6dd2a5aed53b900", git = "https://github.com/withoutboats/fehler"}
+pathdiff = "0.2.1"
+nom = "7.1.0"
+ranges = "0.3.3"
+serde_with = "1.11.0"
+
+[dev-dependencies]
+tempfile = "3.2.0"
